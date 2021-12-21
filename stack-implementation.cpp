@@ -97,6 +97,8 @@ int main(){
 
     cout << "Value at index 1 is: " << myStack.peek(1) << endl;
     
+    // edtting second item from 20 to 100
+    myStack.edit(1, 100);
     // popping last item (number 40) from the stack.
     myStack.pop();
 
