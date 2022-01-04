@@ -72,14 +72,14 @@ class Stack {
 
             int oldValue = arr[index];
             arr[index] = payload;
-            cout << "Value at index " << index << "changed from " << oldValue << "to " << payload << endl;
+            cout << "Value at index " << index << " changed from " << oldValue << " to " << payload << endl;
             return 1;
         };
 };
 
 int main(){
     int size;
-    cout << "Please enter initialize stack size: \n";
+    cout << "Please enter stack size: \n";
     cin >> size;
 
     Stack myStack(size);
